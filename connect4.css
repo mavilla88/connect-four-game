@@ -4,6 +4,7 @@
   width: 50px;
   height: 50px;
   border: solid 1px #666;
+  /* position: relative; */
 }
 
 /* pieces are div within game table cells: draw as colored circles */
@@ -14,6 +15,7 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  /* position: absolute; */
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
@@ -21,7 +23,7 @@
   background-color: red;
 }
 .piece.p2 {
-  background-color: blue;
+  background-color: blue;;
 }
 
 /* column-top is table row of clickable areas for each column */
@@ -31,5 +33,5 @@
 }
 
 #column-top td:hover {
-  background-color: gold;
+  background-color: purple;
 }
